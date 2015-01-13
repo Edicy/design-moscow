@@ -374,3 +374,22 @@ body .add-article {
 .edy-site-blog-comment {
   line-height: 18px
 }
+
+/* Voog cms style overrides */
+#footer .edy-empty-bordered {
+  color: rgba(255,255,255,.33);
+  border-color: rgba(255,255,255,.33);
+}
+#footer .edy-texteditor-view.placeholder {
+  color: rgba(255,255,255,.5);
+}
+#footer .edy-content-element-hover {
+  border-color: rgba(255,255,255,.1);
+}
+#footer .edy-texteditor-active {
+  outline-color: rgba(255,255,255,.2);
+}
+#footer .edy-fe-field-active,
+#footer .edy-fe-active .edy-fe-field:hover {
+  outline-color: rgba(255,255,255,.1);
+}
