@@ -28,7 +28,7 @@
     <img src="{{ images_path }}/illustration.jpg?1" alt="" title="" />
    </div>
    <div>
-    <div id="content-body" class="clearfix">
+    <div id="content-body" class="clearfix" data-search-indexing-allowed="true">
      {% content %}
     </div>
      {% include "News" %}
