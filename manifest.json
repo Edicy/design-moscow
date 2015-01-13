@@ -1,147 +1,154 @@
 {
-  "assets": [
-    {
-      "filename": "style.css",
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "submit.png",
-      "file": "images/submit.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "moscow-b.png",
-      "file": "images/moscow-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "mainmenu-li.png",
-      "file": "images/mainmenu-li.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "lang-and-search-b.png",
-      "file": "images/lang-and-search-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "mainmenu-li-hover.png",
-      "file": "images/mainmenu-li-hover.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "mainmenu-li-active.png",
-      "file": "images/mainmenu-li-active.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "lang-b.png",
-      "file": "images/lang-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "div-blog-b.png",
-      "file": "images/div-blog-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "div-body-b.png",
-      "file": "images/div-body-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "illustration.jpg",
-      "file": "images/illustration.jpg",
-      "kind": "images",
-      "content_type": "image/jpg"
-    }
-  ],
+  "description": "Moscow",
+  "name": "Moscow",
   "preview_medium": "http://static.edicy.com/designs/previews/moscow_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/moscow_small.jpg",
   "author": "Tõnu Runnel",
   "layouts": [
     {
-      "title": "Common page",
+      "content_type": "page",
+      "component": false,
       "file": "layouts/common_page.tpl",
       "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "page",
       "component": false,
-      "content_type": "page"
-    },
-    {
-      "title": "Menus",
-      "file": "components/menus.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Langmenu",
-      "file": "components/langmenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Blog & News",
-      "file": "layouts/blog___news.tpl",
-      "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
-    },
-    {
-      "title": "Blog article",
-      "file": "layouts/blog_article.tpl",
-      "layout_name": "blog_article",
-      "component": false,
-      "content_type": "blog_article"
-    },
-    {
-      "title": "Search",
-      "file": "components/search.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "SiteHeader",
-      "file": "components/siteheader.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Front page",
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "blog",
       "component": false,
-      "content_type": "page"
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
     },
     {
-      "title": "News",
-      "file": "components/news.tpl",
-      "layout_name": "",
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
     },
     {
-      "title": "JS",
+      "content_type": "component",
+      "component": true,
       "file": "components/js.tpl",
-      "layout_name": "",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/menus.tpl",
+      "layout_name": "menus",
+      "title": "menus"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/news.tpl",
+      "layout_name": "news",
+      "title": "news"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/moscow_small.jpg",
-  "name": "Moscow",
-  "description": "Moscow"
+  "assets": [
+    {
+      "content_type": "image/png",
+      "file": "images/div-blog-b.png",
+      "kind": "images",
+      "filename": "div-blog-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/div-body-b.png",
+      "kind": "images",
+      "filename": "div-body-b.png"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/illustration.jpg",
+      "kind": "images",
+      "filename": "illustration.jpg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-and-search-b.png",
+      "kind": "images",
+      "filename": "lang-and-search-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-b.png",
+      "kind": "images",
+      "filename": "lang-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/mainmenu-li-active.png",
+      "kind": "images",
+      "filename": "mainmenu-li-active.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/mainmenu-li-hover.png",
+      "kind": "images",
+      "filename": "mainmenu-li-hover.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/mainmenu-li.png",
+      "kind": "images",
+      "filename": "mainmenu-li.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/moscow-b.png",
+      "kind": "images",
+      "filename": "moscow-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/submit.png",
+      "kind": "images",
+      "filename": "submit.png"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
 }
